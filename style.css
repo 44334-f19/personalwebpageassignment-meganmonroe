@@ -1,1 +1,75 @@
 /*Personal Web Page Style Sheet */
+    header {
+                background-color: lightpink;
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+            }
+            nav {
+                float: left;
+                width: 90px;
+                padding: 20px;
+                height: auto;
+            }
+            main {
+                margin-left: 200px;
+                padding: 20px;
+            }
+            footer { text-align: center;
+                    font-style: italic;
+                    clear: both;}
+body { font: Times New Roman;
+        background-color: #EFEFEF; }
+
+.img-1{
+    height: auto;
+    width: 150px;
+}
+.img-2{
+    height: auto;
+    width: 150px;
+}
+.img-3{
+    height: auto;
+    width: 150px;
+}
+
+h1 {font-size: 40px;
+    font-weight: 200;
+    color: lightpink;}
+
+.list-style li { font-style: italic;
+                 color: dimgrey; }
+.style-list li { font-style: italic;
+                 color: dimgrey; }
+
+.link-1:hover{
+    color: lightpink;
+    transition: .25s color ease-in;
+}
+
+.link-2:hover{
+    color: lightpink;
+    transition: .25s color ease-in;
+}
+
+.link-1:link {
+    color: deeppink;
+}
+
+.link-2:link {
+    color: deeppink;
+}
+
+.link-1:visited {
+    color: rebeccapurple;
+}
+
+.link-2:visited { 
+    color: rebeccapurple; 
+}
+
+.nav {
+    font: Times New Roman;
+    color: darkslategray;
+}
