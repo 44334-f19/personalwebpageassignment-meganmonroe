@@ -43,31 +43,32 @@ h1 {font-size: 40px;
 .style-list li { font-style: italic;
                  color: dimgrey; }
 
-.link-1:hover{
+.link-1 a:hover{
+    color: lightpink;
+    transition: .25s color ease-in !important;
+}
+
+.link-2 a:hover{
     color: lightpink;
     transition: .25s color ease-in;
 }
 
-.link-2:hover{
-    color: lightpink;
-    transition: .25s color ease-in;
-}
-
-.link-1:link {
+.link-1 a:link {
     color: deeppink;
 }
 
-.link-2:link {
+.link-2 a:link {
     color: deeppink;
 }
 
-.link-1:visited {
+.link-1 a:visited {
     color: rebeccapurple;
 }
 
-.link-2:visited { 
+.link-2 a:visited { 
     color: rebeccapurple; 
 }
+
 
 .nav {
     font: Times New Roman;
